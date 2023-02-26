@@ -4,17 +4,26 @@
   <nb-how-works />
   <nb-plans />
   <nb-delivery />
+  <nb-feed-backs />
 </template>
 
 <script>
 import Hero from "./components/Hero.vue";
 import NbBenefits from "./components/NbBenefits.vue";
 import NbDelivery from "./components/NbDelivery.vue";
+import NbFeedBacks from "./components/NbFeedBacks.vue";
 import NbHowWorks from "./components/NbHowWorks.vue";
 import NbPlans from "./components/NbPlans.vue";
 export default {
   name: "App",
-  components: { Hero, NbBenefits, NbHowWorks, NbPlans, NbDelivery },
+  components: {
+    Hero,
+    NbBenefits,
+    NbHowWorks,
+    NbPlans,
+    NbDelivery,
+    NbFeedBacks,
+  },
 };
 </script>
 
