@@ -50,7 +50,6 @@ section {
   padding: 3.3vw;
   gap: 3.3vw;
   justify-content: space-around;
-  margin-bottom: 7vw;
 }
 .card {
   width: 30%;
@@ -81,7 +80,6 @@ section {
   }
   .card {
     width: 100%;
-    text-align: center;
   }
   .card img {
     height: 25vw;

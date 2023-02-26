@@ -25,6 +25,10 @@ button {
   cursor: pointer;
   font-weight: 700;
   padding: 1.1vw 4.4vw;
+  transition: all 0.5s ease;
+}
+button:hover {
+  background-color: #b0c372;
 }
 .full {
   width: 100%;
