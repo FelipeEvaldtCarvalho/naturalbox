@@ -30,7 +30,8 @@
           <span class="contrast">saúde</span> e o
           <span class="contrast">meio ambiente</span>.
         </p>
-        <nb-button>Assinar</nb-button>
+        <nb-button v-if="windowWidth > 735">Assinar</nb-button>
+        <nb-button v-else :fullWidth="true">Assinar</nb-button>
       </div>
       <div class="hero-img">
         <img src="../assets/header-img.png" alt="" />
@@ -83,20 +84,19 @@ nav {
   font-size: 4.4vw;
 }
 a {
-  font-size: 1.2rem;
+  font-size: 1.4vw;
   font-weight: 700;
   text-decoration: none;
-  padding: 0.7rem 0;
+  padding: 1.1vw 4.4vw;
 }
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 6rem;
 }
 .container {
   display: flex;
   width: 100%;
-  padding: 2rem;
+  padding: 2.2vw;
   padding-bottom: 0;
 }
 .hero-text {
@@ -159,9 +159,15 @@ a {
   nav {
     padding: 4vw 8vw;
   }
+  a {
+    font-size: 4.4vw;
+    padding: 3.3vw 9.9vw;
+  }
   .container {
-    display: flex;
     flex-direction: column-reverse;
+    width: 100%;
+    padding: 6.6vw;
+    padding-bottom: 15vw;
   }
   .hero-text {
     width: 100%;

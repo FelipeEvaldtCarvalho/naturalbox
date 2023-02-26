@@ -54,6 +54,7 @@ export default {
   width: 100%;
   padding: 3.3vw;
   justify-content: space-around;
+  margin-bottom: 7vw;
 }
 .card {
   display: flex;
