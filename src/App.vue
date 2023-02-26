@@ -1,14 +1,16 @@
 <template>
   <hero />
   <nb-benefits />
+  <nb-how-works />
 </template>
 
 <script>
 import Hero from "./components/Hero.vue";
 import NbBenefits from "./components/NbBenefits.vue";
+import NbHowWorks from "./components/NbHowWorks.vue";
 export default {
   name: "App",
-  components: { Hero, NbBenefits },
+  components: { Hero, NbBenefits, NbHowWorks },
 };
 </script>
 

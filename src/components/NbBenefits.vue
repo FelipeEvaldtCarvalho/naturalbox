@@ -65,6 +65,7 @@ export default {
 .card-header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.1vw;
 }
 .card-header img {
