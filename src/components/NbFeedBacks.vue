@@ -1,13 +1,13 @@
 <template>
   <div class="svg-container">
-    <svg class="back" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <svg class="back" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 205">
       <path
         fill="#4C884B"
         fill-opacity="1"
         d="M0,32L30,58.7C60,85,120,139,180,133.3C240,128,300,64,360,74.7C420,85,480,171,540,208C600,245,660,235,720,197.3C780,160,840,96,900,90.7C960,85,1020,139,1080,138.7C1140,139,1200,85,1260,74.7C1320,64,1380,96,1410,112L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
       ></path>
     </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 205">
       <path
         fill="#B0C372"
         fill-opacity="1"
@@ -30,7 +30,11 @@
       </div>
     </div>
   </section>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+  <svg
+    class="svg-footer"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 205"
+  >
     <path
       fill="#B0C372"
       fill-opacity="1"
@@ -132,6 +136,10 @@ section {
 .stars ion-icon {
   font-size: 2vw;
   color: #ed7d2b;
+}
+.svg-footer {
+  background-color: #f2ebd1;
+  margin-bottom: -1.2555555vw;
 }
 @media screen and (max-width: 735px) {
   section {

@@ -5,6 +5,7 @@
   <nb-plans />
   <nb-delivery />
   <nb-feed-backs />
+  <nb-footer />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import Hero from "./components/Hero.vue";
 import NbBenefits from "./components/NbBenefits.vue";
 import NbDelivery from "./components/NbDelivery.vue";
 import NbFeedBacks from "./components/NbFeedBacks.vue";
+import NbFooter from "./components/NbFooter.vue";
 import NbHowWorks from "./components/NbHowWorks.vue";
 import NbPlans from "./components/NbPlans.vue";
 export default {
@@ -23,6 +25,7 @@ export default {
     NbPlans,
     NbDelivery,
     NbFeedBacks,
+    NbFooter,
   },
 };
 </script>
